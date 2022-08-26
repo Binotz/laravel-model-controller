@@ -18,10 +18,7 @@
                 <div class="lang">Lang: {{ $movie -> nationality}}</div>
                 <div class="date">Release Date: {{ $movie -> date}}</div>
                 <div class="vote">Vote: {{ $movie -> vote}}</div>
-                {{-- {{ $movie }} --}}
-
-            </div>
-            
+            </div>          
             @endforeach
         </div>
     </main>
